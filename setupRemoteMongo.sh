@@ -1,0 +1,3 @@
+mongoimport --uri "mongodb://ac-ia7hmvo-shard-00-00.zcwzdym.mongodb.net:27017,ac-ia7hmvo-shard-00-01.zcwzdym.mongodb.net:27017,ac-ia7hmvo-shard-00-02.zcwzdym.mongodb.net:27017/qkart?replicaSet=atlas-2c488m-shard-0" --ssl --authenticationDatabase admin --username desaivinay2002_db_user --password NzMy5j5gfuWBSPYa --drop --collection users --file data/export_qkart_users.json
+
+mongoimport --uri "mongodb://ac-ia7hmvo-shard-00-00.zcwzdym.mongodb.net:27017,ac-ia7hmvo-shard-00-01.zcwzdym.mongodb.net:27017,ac-ia7hmvo-shard-00-02.zcwzdym.mongodb.net:27017/qkart?replicaSet=atlas-2c488m-shard-0" --ssl --authenticationDatabase admin --username desaivinay2002_db_user --password NzMy5j5gfuWBSPYa --drop --collection products --file data/export_qkart_products.json
